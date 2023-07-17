@@ -4,8 +4,6 @@
         <title>Media</title>
         <meta charset="UTF-8">
         <meta name="author" description="MaiD">
-        <!--<script type="text/javascript" src="video.js"></script>-->
-
     </head>
     <body>
         <!--<audio>
@@ -18,28 +16,11 @@
     <div style="color:rgb(155, 1, 1)">
         <h1>Sample video</h1>
         <video id="vid1" height="345" width="625" controls autoplay muted>
-            <source src="SampleVid.mp4" type="video/mp4"> 
+            <source src=".mp4" type="video/mp4"> 
         </video>
         <br><br>
         <button onclick="playPause()">Play/Pause</button>
         <button onclick="muteUnmute()">Mute/Unmute</button>
         <script src="video.js"></script>
-        <!--<script>
-            let myVid = document.getElementById("vid1");
-            function playPause(){
-                if(myVid.paused){
-                    myVid.play();
-                }
-                else{
-                    myVid.pause();
-                }
-            }
-            function muteUnmute(){
-                if(myVid.muted == true)
-                    myVid.muted = false;
-                else
-                    myVid.muted = true;
-            }
-        </script>-->
     </div>
 </html>
