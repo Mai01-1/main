@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button</title>
+  </head>
+  <body>
+    <button type="button">Sample</button>
+  </body>
+</html>
