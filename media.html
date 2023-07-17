@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Media</title>
+    </head>
+    <body>
+        <!--<audio>
+            <source src=".mp3" type="audio/mpeg">
+        </audio>-->
+        <h1 style="color:rgb(189, 2, 2)">Co-op program in FCS UNB</h1>
+        <br>
+        <iframe width="625" height="345" src="https://www.youtube.com/embed/R6oMc5rPPTs?autoplay=1&mute=1"></iframe>
+    </body>
+    <div style="color:rgb(155, 1, 1)">
+        <h1>Sample video</h1>
+        <video id="vid1" height="345" width="625" controls autoplay muted>
+            <source src="SampleVid.mp4" type="video/mp4"> 
+        </video>
+        <br><br>
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="muteUnmute()">Mute/Unmute</button>
+        <p style="font-size: smaller;">
+            Reference by 
+            <a href="https://www.youtube.com/watch?v=zomvO2Ii-kA" style="color:darkorange">Dingo Music</a>
+        </p>
+        <script src="video.js"></script>
+        <!--<script>
+            var myVid = document.getElementById("vid1");
+            function playPause(){
+                if(myVid.paused){
+                    myVid.play();
+                }
+                else{
+                    myVid.pause();
+                }
+            }
+            function muteUnmute(){
+                if(myVid.muted == true)
+                    myVid.muted = false;
+                else
+                    myVid.muted = true;
+            }
+        </script>-->
+    </div>
+</html>
