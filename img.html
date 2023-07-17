@@ -3,7 +3,41 @@
     <head lang="en">
         <title>Links and Images</title>
         <meta charset="UTF-8"> 
-        <link rel="stylesheet" href="img.css">
+        <style>
+            body{
+                background: url('hanoi.png') no-repeat fixed;
+                background-size: cover;
+            }
+            .translayer{
+                opacity: 0.5;
+            }
+            .textbox{
+                padding: 20px;
+                background-color: rgba(240, 248, 255, 0.479);
+                position: absolute;
+                top: 20px;
+                right: 65%;  
+                left: 10%;              
+            }
+            #scroll{
+                display: none;
+                position: fixed;
+                bottom: 25px;
+                right: 25px;
+                z-index: 2;
+                border: none;
+                border-radius: 10px;
+                background-color: aliceblue;
+                padding: 10px 10px;
+                font-size: 22px;
+                cursor: pointer;
+                opacity: 0.3;
+            }
+            #scroll:hover{
+                opacity: 1;
+            }
+            #p0{display: none;}
+        </style>
     </head>
     
     <div class="translayer"></div>
