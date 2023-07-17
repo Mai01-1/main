@@ -10,7 +10,6 @@ function scrollFnc(){
         scr.style.display = "none";
     }
 }
-//window.onscroll = scrollFnc();
 function toTop(){
     document.documentElement.scrollTop = 0;
 }
