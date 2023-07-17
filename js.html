@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+        <link rel="stylesheet" type="text/css" href="button.css">
+    </head>
+    <body>
+        <h1>JavaScript Example</h1>
+        <p id="eg" style="font-size:120%;">Hello World!</p>
+        <button id="inner" type="button" onclick="innerOut()">In HTML</button>
+        <button id="alert" type="button" onclick="alertBox()">In alert</button>
+        <script>
+            function innerOut(){
+                document.getElementById("eg").innerHTML = "My name is Mai.";
+            }
+            function alertBox(){
+                window.alert("How are you today?");
+                //alert("How are you today?");
+            }
+        </script>
+    </body>
+</html>
