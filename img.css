@@ -1,0 +1,42 @@
+body{
+    background: url('hanoi.png') no-repeat fixed;
+    background-size: cover;
+}
+.translayer{
+    opacity: 0.5;
+}
+.textbox{
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.479);
+    position: absolute;
+    top: 20px;
+    right: 65%;  
+    left: 10%;              
+}
+#btn0{
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    color:hsl(230, 62%, 33%);
+}
+#btn0:hover{
+    background-color: #e6e3e3;
+}
+#scroll{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 2;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+#scroll:hover{
+    opacity: 1;
+}
+#p0{display: none;}
