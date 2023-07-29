@@ -1,0 +1,52 @@
+.flip{
+    background-color: transparent;
+    width: 30px;
+    height: 55px;
+    perspective: 300px;
+    margin: 5px;
+    float: left;
+}
+.top{
+    height: 80px;
+}
+
+.inflip{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    transform-style: preserve-3d;
+}
+.isFlipped/*flip:hover .inflip*/{
+    transform: rotateX(180deg);
+}
+.front, .back{
+    position: absolute;
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+}
+.front{
+    background-color: rgb(236, 233, 233);
+    backface-visibility: hidden;
+}
+.back{
+    background-color: rgb(255, 180, 180);
+    transform: rotateX(180deg);
+}
+button{
+    float: right;
+    border-color: darkcyan;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: rgb(35, 157, 102);
+    color:rgb(244, 237, 237);
+    box-shadow: 0 9px #8f8f8f;
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: 0 4px #5c5c5c;
+    transform: translateY(5px);
+}
