@@ -1,0 +1,41 @@
+img{
+    height: 50%;
+    width: 50%;
+    float: right;
+    margin: 30px;
+}
+body{
+    background-color: rgb(233, 255, 249);
+}
+#textbox{
+    padding: 5px;
+    position: absolute;
+    background-color: inherit;
+    width: 350px;
+    right: 60%;
+    left: 25px;
+    font-size: 18px;
+}
+.flip{
+    background-color: transparent;
+    perspective: 800px;
+    width: 275px;
+    height: 183px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inflip{
+    position: relative;
+    transition: 0.7s;
+    transform-style: preserve-3d;
+}
+.flip:hover .inflip{
+    transform: rotateY(180deg);
+}
+.front, .back{
+    position: absolute;
+    backface-visibility: hidden;
+}
+.back{
+    transform: rotateY(180deg);
+}
