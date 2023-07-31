@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box It</title>
+        <link rel="stylesheet" type="text/css" href="multipleFlip.css">
+    </head>
+
+    <body>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="inner">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+        
+        <script>
+            //Flip all with one button
+            const cards = document.querySelectorAll('.inner');
+            let button = document.getElementById('btn');
+
+            button.addEventListener('click', function(){
+                cards.forEach(function(card){
+                    card.classList.toggle("isFlipped");
+                });
+            });
+
+            //Flip each card
+            /*let cards = document.querySelectorAll('.inner');
+
+            [...cards].forEach((card)=>{
+                card.addEventListener('click', function(){
+                    card.classList.toggle('isFlipped');
+                });
+            });*/
+        </script>
+    </body>
+</html>
