@@ -1,0 +1,68 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+}
+
+.left-column{
+    flex: 1;
+    padding: 20px;
+}
+
+.left-column img{
+    max-width: 100%;
+    height: auto;
+}
+
+.right-column{
+    flex: 2;
+    padding: 20px;
+}
+
+.parallax{
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section1{
+    background-image: url('https://media.glamour.com/photos/60ba64a6d571ac6581080334/master/w_2560%2Cc_limit/1145766400');
+}
+
+.section2{
+    background-image: url('https://images.unsplash.com/photo-1595475207225-428b62bda831?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80');
+}
+
+.section3{
+    background-image: url('https://post.greatist.com/wp-content/uploads/sites/2/2021/09/410475-grt-watermelon-1200x628-Facebook-1200x628.jpg');
+}
+
+h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1em;
+    margin-top: 10px;
+}
