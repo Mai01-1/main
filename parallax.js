@@ -1,4 +1,4 @@
-const parallaxSections = document.querySelectorAll('.parallax-section');
+const parallaxSections = document.querySelectorAll('.parallax');
 
 parallaxSections.forEach(section => {
     const speed = parseFloat(section.getAttribute('data-speed'));
